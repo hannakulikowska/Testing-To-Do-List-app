@@ -1,7 +1,5 @@
 # LIST ACTIONS
 
-### DOCUMENTATION
-
 ### USER STORY
 As a user, I should be able to execute various actions on the list.
 
@@ -15,3 +13,6 @@ As a user, I should be able to execute various actions on the list.
 |--------------------------------------------------------------------------|-------------|-----------------------------------------------------------------------|
 |1. Cklick the actions button on the list with title "Title 1".             |             | A list with possible actions was displayed.                           |
 |2. Click the close button on the list with possible actions.              |             | It is impossible to close the list. The close button isn't clickable.  |
+
+![2 2](https://user-images.githubusercontent.com/80547490/219877476-d11786ea-eed6-47b6-ba2e-8ddd164907e7.png)
+![2 3](https://user-images.githubusercontent.com/80547490/219877485-1c4da857-7b5f-4533-9207-63d626b89181.png)
