@@ -1,6 +1,6 @@
 # ADDING A LIST
 
-## DOCUMENTATION
+### DOCUMENTATION
 
 ### USER STORY
 As a user I should be able to create a list with a custom title. Number of created lists is not limited. Title length should not exceed 50 characters. 
@@ -12,7 +12,8 @@ Within the created list I should be able to create the tasks. It should not be p
 ### WIREFRAME
 ![1 add_list](https://user-images.githubusercontent.com/80547490/219871118-d9712005-c0a8-4fef-b602-845708cda222.png)
 
-## TEST CASE 1 - **BUG** :red_circle:
+### TEST CASE 1 <br>
+**BUG** :red_circle:
 
 | Action                                    | Input                  | Output                                               |
 |-------------------------------------------|------------------------|------------------------------------------------------|
