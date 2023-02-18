@@ -25,6 +25,10 @@ Within the created list I should be able to create the tasks. It should not be p
 <img src="https://user-images.githubusercontent.com/80547490/219898921-90ed9c23-e72f-464f-935f-aeb41f37eb59.png" width=85% high=85%>
 <br><br>
 
+**DEVELOPER FIXED THE BUG.** <br>
+RETESTING <br>
+<sub>to check that the bug which was found and fixed is working as it should.</sub>
+
 ### TEST CASE <br>
 :red_circle:  **BUG** <br>
 **No X button on a pop-up notification.**
@@ -32,6 +36,7 @@ Within the created list I should be able to create the tasks. It should not be p
 
 | Action                                                     | Input                  | Output                                                               |
 |------------------------------------------------------------|------------------------|----------------------------------------------------------------------|
+|1. In the first list I wrote title name.                    |List title: Title 1     |
 |1. In the second list I wrote the same title name as in the first list. | List title: Title 1 | The title "Title 1" displayed.                              |
 |2. Click "Add" button.                                      |                        |The pop-up notification appeared, that I can not do this. According to the documentation, there should be an X button in the upper right corner of the pop-up, but there is no button.|
 
