@@ -1,4 +1,4 @@
-# ADDING A LIST
+# ADD A LIST
 
 ### USER STORY
 As a user I should be able to create a list with a custom title. Number of created lists is not limited. Title length should not exceed 50 characters. 
@@ -25,7 +25,7 @@ Within the created list I should be able to create the tasks. It should not be p
 Title: Title 1. <br>
 
 **Steps:**
-2. Cklick add button for adding the first list.
+1. Cklick add button for adding the first list.
 2. Write the title in the title field.
 3. Click add button to confirm the title.
 
@@ -46,7 +46,7 @@ Title: Title 1. <br>
 Title: Title 1. <br>
 
 **Steps:**
-2. Cklick add button for adding the first list.
+1. Cklick add button for adding the first list.
 2. Write the title in the title field.
 3. Click add button to confirm the title.
 
@@ -56,23 +56,164 @@ Title: Title 1. <br>
 
 
 ### TEST CASE ID: 01-02 <br>
-**SUMMARY:** ADDING TWO LISTS WITH THE SAME NAME
-**TEST RESULT:** `FAILED 🔴` <br>
+**SUMMARY:** ADDING TWO LISTS WITH THE SAME NAME <br>
+**STATUS:** `PASSED 🟢` <br>
 
 **Preconditions:**
 1. Launch the application.
 2. Add the first list.
 
-**Test Data:**<br><br>
+**Test Data:**<br>
 List title: Title 1 <br>
 
-**Step Details:**
-1. Write the same title in the second list as in the first list. <br>
+**Steps:**
+1. Write the same title in the second list as in the first list.
 2. Click add button to confirm the title.
-
-**Postconditions:** 
-Close the pop-up notification by clicking X button.
 
 **Expected Result:**
 A pop-up notification will appear after an unsuccessful attempt to add a list with the same name.
 
+
+
+
+### TEST CASE ID: 01-03 <br>
+**SUMMARY:** CLOSE A POP-UP NOTIFICATION BY CLICKING X BUTTON <br>
+**STATUS:** `FAILED 🔴` <br> 
+
+**Preconditions:**
+1. Launch the application.
+2. Add the first list.
+3. Write the same title in the second list as in the first list.
+4. Click add button to confirm the title.
+
+**Test Data:**<br><br>
+None.
+
+**Steps:**
+1. Close the pop-up notification by clicking X button.
+
+**Expected Result:**
+The pop-up notification will be closed.
+
+
+
+
+### TEST CASE ID: 01-04 <br>
+**SUMMARY:** CLOSE A POP-UP NOTIFICATION BY CLICKING OUTSIDE <br>
+**STATUS:** `PASSED 🟢` <br> 
+
+**Preconditions:**
+1. Launch the application.
+2. Add the first list.
+3. Write the same title in the second list as in the first list.
+4. Click add button to confirm the title.
+
+**Test Data:**<br><br>
+None.
+
+**Steps:**
+1. Close the pop-up notification by clicking outside of the pop-up window.
+
+**Expected Result:**
+The pop-up notification will be closed.
+
+**Postconditions:**
+1. Close created lists.
+
+
+
+
+### TEST CASE ID: 01-05 <br>
+**SUMMARY:** LENGTH OF TITLE FOR THE LIST - VALID NUMBER OF CHARACTERS <br>
+**STATUS:** `PASSED 🟢` <br> 
+
+**Preconditions:**
+1. Launch the application.
+
+**Test Data:**<br><br>
+1. Title 1 character: L
+2. Title 50 characters: Lorem ipsum dolor sit amet, consectetur tincidunt.
+
+**Steps:**
+1. Add a list with a title that includes 1 character.
+2. Add next list with a title that includes 50 characters.
+
+**Expected Result:**
+Two lists will be created: one with a title of 1 character, the second - of 50 characters.
+
+**Postconditions:**
+1. Close created lists.
+
+
+
+
+### TEST CASE ID: 01-06 <br>
+**SUMMARY:** LENGTH OF TITLE FOR THE LIST - INVALID NUMBER OF CHARACTERS <br>
+**STATUS:** `PASSED 🟢` <br> 
+
+**Preconditions:**
+1. Launch the application.
+
+**Test Data:**<br><br>
+1. Title 51 characters: Lorem ipsum dolor sit amet, consectetur massa nunc.
+
+**Steps:**
+1. Add a list with a title that includes 51 characters.
+
+**Expected Result:**
+The title can include a maximum of 50 characters.
+
+**Postconditions:**
+1. Close created lists.
+
+**Remark:**
+**Discuss** with the team what exactly should happen after trying to add a title that includes more than 50 characters (e.g. a notification will appear that the length exceeds the allowed number of characters or the number of characters in the title will automatically decrease to 50. If it is a notification, what kind will it be?).
+
+
+
+
+### TEST CASE ID: 01-07 <br>
+**SUMMARY:** ADDING A LIST WITHOUT A TITLE <br>
+**STATUS:** `PASSED 🟢` <br> 
+
+**Preconditions:**
+1. Launch the application.
+
+**Test Data:**<br><br>
+None.
+
+**Steps:**
+1. Add a list without a title.
+
+**Expected Result:**
+It's impossible to create a list without a title.
+
+**Remark:**
+**Discuss** with the team what exactly should happen after trying to create a list without a title (e.g. a notification will appear that the title field is a required or the add button will not be clickable as it is now).
+
+
+
+
+### TEST CASE ID: 01-08 <br>
+**SUMMARY:** LIMIT OF THE LISTS <br>
+**STATUS:** `PASSED 🟢` <br> 
+
+**Preconditions:**
+1. Launch the application.
+
+**Test Data:**<br><br>
+20 Titles: 
+- Lorem ipsum dolor sit amet, consectetur aenean 1.
+- Lorem ipsum dolor sit amet, consectetur aenean 2.
+- Lorem ipsum dolor sit amet, consectetur aenean 3.
+<br>etc. up to 
+- Lorem ipsum dolor sit amet, consectetur aenean 20.
+
+**Steps:**
+1. Add 20 lists.
+
+**Expected Result:**
+Number of created lists is not limited, so will be created 20 lists.
+
+**Postconditions:**
+1. Close created lists.
