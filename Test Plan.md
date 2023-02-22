@@ -1,7 +1,7 @@
 # TEST PLAN
 
 **1. Introduction**<p>
-  The application "To Do List" allows users to add lists to the board and assign a title to each list. Users can also create multiple tasks for each list and configure the title, description, and additional labels for each task.<p>
+  The web application "To Do List" allows users to add lists to the board and assign a title to each list. Users can also create multiple tasks for each list and configure the title, description, and additional labels for each task.<p>
 <img src="https://user-images.githubusercontent.com/80547490/220552530-24fb17d1-d12b-4034-8cf2-d80510852eaa.png"><p>
    **1.1. Purpose**<p>
    The purpose of this test plan is to provide a comprehensive guide for testing the appication "To Do List".<p>
@@ -15,7 +15,7 @@
    
 **2. Test Approach**<p>
    **2.1. Testing Types**<p>
-   The following testing types will be used to test the website:<p>
+   The following testing types will be used to test the application:<p>
       •	Functional testing<br>
       •	Usability testing<p>
    **2.2. Testing Tools**<p>
@@ -57,7 +57,7 @@ The following test cases will be executed during the testing of the application:
       •	The tester will retest the defects and confirm the fixes.<br>
       
 **5. Test Deliverables**<p>
-The following test deliverables will be produced during the testing of the website:<p>
+The following test deliverables will be produced during the testing of the application:<p>
 •	Test Plan<br>
 •	Test Case Specifications<br>
 •	Test Execution Report<br>
