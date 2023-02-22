@@ -29,16 +29,16 @@ The following test cases will be executed during the testing of the application:
       •	Removing a list<br>
       •	Updating a list<br>
       •	List actions<br>
-      •	Changing the lists order<br>
-      •	Adding a new task<br>
+      •	Reordering lists<br>
+      •	Adding a task<br>
       •	Removing a task<br>
       •	Updating a task<br>
       •	Reordering tasks<br>
       •	Moving a task between lists<br>
       •	Marking a task as important<br>
       •	Adding a label to a task<br>
-      •  Adding a checkbox list to a task<br>
-      •  Data persistence<br>
+      • Adding a checkbox to a task<br>
+      • Data persistence<br>
       •	UI Consistency<p>
       
 **4. Test Execution**<p>
