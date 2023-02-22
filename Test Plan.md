@@ -1,6 +1,8 @@
 # TEST PLAN
 
 **1. Introduction**<p>
+  The application "To Do List" allows users to add lists to the board and assign a title to each list. Users can also create multiple tasks for each list and configure the title, description, and additional labels for each task.<p>
+<img src="https://user-images.githubusercontent.com/80547490/220552530-24fb17d1-d12b-4034-8cf2-d80510852eaa.png"><p>
    **1.1. Purpose**<p>
    The purpose of this test plan is to provide a comprehensive guide for testing the appication "To Do List".<p>
    **1.2. Scope**<p>
