@@ -1,22 +1,22 @@
 # TEST PLAN
 
 **1. Introduction**<p>
-   **1.1. Purpose**<br>
+   **1.1. Purpose**<p>
    The purpose of this test plan is to provide a comprehensive guide for testing the appication "To Do List".<p>
-   **1.2. Scope**<br>
+   **1.2. Scope**<p>
    The scope of this test plan is to test the functionality and usability of the application "To Do List".<p>
-   **1.3 Objectives**<br>
+   **1.3 Objectives**<p>
    The objectives of this test plan are as follows:<p>
       •	To identify and report any defects or issues in the application.<br>
       •	To ensure that the application meets the requirements specified in the user stories and wireframes.<br>
       •	To ensure that the application is user-friendly and easy to navigate.<p>
    
 **2. Test Approach**<p>
-   **2.1. Testing Types**<br>
+   **2.1. Testing Types**<p>
    The following testing types will be used to test the website:<p>
       •	Functional testing<br>
       •	Usability testing<p>
-   **2.2. Testing Tools**<br>
+   **2.2. Testing Tools**<p>
    The following testing tools will be used to test the application:<p>
       •	Browser developer tools<br>
       •	Jira<p>
@@ -40,12 +40,12 @@ The following test cases will be executed during the testing of the application:
       •	UI Consistency<p>
       
 **4. Test Execution**<p>
-   **4.1 Test Environment**<br>
+   **4.1 Test Environment**<p>
    The following test environment will be used to test the website:<p>
       •	Operating System: Windows 10 Home<br>
       •	Browser: Google Chrome v.109.0.5414.120 Official Build 64-bit<br>
       •	Test Management Tool: Jira<p>
-   **4.2 Test Execution Process**<br>
+   **4.2 Test Execution Process**<p>
    The following steps will be taken to execute the test cases:<p>
       •	Test cases will be assigned to the tester by the Test Manager.<br>
       •	The tester will execute the test cases and report any defects or issues found during the testing.<br>
