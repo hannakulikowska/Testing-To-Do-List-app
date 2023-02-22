@@ -42,12 +42,12 @@ The following test cases will be executed during the testing of the application:
       •	UI Consistency<p>
       
 **4. Test Execution**<p>
-   **4.1 Test Environment**<p>
-   The following test environment will be used to test the website:<p>
+   **4.1. Test Environment**<p>
+   The following test environment will be used to test the application:<p>
       •	Operating System: Windows 10 Home<br>
       •	Browser: Google Chrome v.109.0.5414.120 Official Build 64-bit<br>
       •	Test Management Tool: Jira<p>
-   **4.2 Test Execution Process**<p>
+   **4.2. Test Execution Process**<p>
    The following steps will be taken to execute the test cases:<p>
       •	Test cases will be assigned to the tester by the Test Manager.<br>
       •	The tester will execute the test cases and report any defects or issues found during the testing.<br>
