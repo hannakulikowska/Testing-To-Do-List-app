@@ -26,13 +26,13 @@
 **3. Test Cases**<p>
 The following test cases will be executed during the testing of the application:<p>
       •	Adding a list<br>
-      •	Removing a list<br>
       •	Updating a list<br>
+      •	Removing a list<br>
       •	List actions<br>
       •	Reordering lists<br>
       •	Adding a task<br>
-      •	Removing a task<br>
       •	Updating a task<br>
+      •	Removing a task<br>
       •	Reordering tasks<br>
       •	Moving a task between lists<br>
       •	Marking a task as important<br>
